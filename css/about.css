@@ -23,8 +23,10 @@ ul{
     
 
 }
-li{
+ul>li{
     list-style: none;
+    background: none;
+    padding: 0;
     
 }
 a{
@@ -33,19 +35,24 @@ a{
    font-family: monospace;
 }
 a:hover{
-    color: lightsteelblue
+    color: lightsteelblue;
 }
-img{
-    width: 300px;
-    border-radius: 50%;
-    padding: 20px;
-    opacity: 1;
-   
-}
-#caption{
+h2{
+    margin-left: 40%;
     color: white;
-
+    padding: 20px;
 }
+li{
+    background-color: violet;
+    list-style: none;
+    padding-left: 40%;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+
 #footer{
     background-color: black;
     color: white;
@@ -53,25 +60,4 @@ img{
     padding: 20px;
     clear: both;
     margin-top:100px;
-    
-}
-#projects{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 4rem;
-    
-}
-#projects>li>a{
-    margin:20px;
-    background-color: rgb(30, 2, 41);
-    color: white;
-    padding: 50px;
-    border-radius: 20px 0;
-    
-}
-#projects>li>a:hover{
-    color: white;
-    background-color: blueviolet;
-    border-radius: 0 20px;
-
 }
