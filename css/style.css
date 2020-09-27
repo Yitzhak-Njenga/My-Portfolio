@@ -11,7 +11,29 @@ box-shadow: inset -28px 28px 56px #2b2e4b,
 }
 nav{
     
-    padding: 10px;
+    nav{
+    
+        padding: 10px;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        
+    
+    }
+    li{
+        list-style: none;
+        
+    }
+    a{
+       color: white;
+       text-decoration: none;
+       font-family: monospace;
+    }
+    a:hover{
+        color: lightsteelblue
+       padding: 10px;
     width: 100%;
 }
 ul{
